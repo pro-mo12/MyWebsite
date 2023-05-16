@@ -65,15 +65,16 @@ body, html{
 
 .section{
   text-align:center;
-  padding:20px 80px 20px 80px;
 }
 
 .section-light{
+  padding:20px 80px 20px 80px;
   background-color:#f4f4f4;
   color:#666;
 }
 
 .section-dark{
+    padding:20px 80px 20px 80px;
     background-color:#282e34;
     color:#ddd;
 }
@@ -105,10 +106,26 @@ body, html{
   }
 }
 
-ul{
-    padding: 0px;
+.ul1{
+    margin-top: 0em;
+    margin-bottom: 2em;
+    padding:0px 80px 0px 80px;
     list-style-type: none;
 /*    list-style-position: outside;*/
+}
+
+.ul2{
+    margin-top: 0em;
+    margin-bottom: 0em;
+    padding:0px 80px 0px 80px;
+    list-style-type: none;
+/*    list-style-position: outside;*/
+}
+
+h2{
+    margin-top: 0em;
+    margin-bottom: 0em;
+    padding-bottom: 0em;
 }
 
 
